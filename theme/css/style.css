@@ -1,0 +1,247 @@
+/*******************************************************************
+**************     Medical Center Version 1.0.1    *****************
+********************************************************************
+***************  @Author ISC.Ulises Rodriguez T.   *****************
+********************************************************************
+***************   @Author Ing.Jorge Hernández.     *****************
+********************************************************************
+***************          @copyright 2010           ***************** 
+********************************************************************
+***************           @No modificar            *****************
+********************************************************************/
+/***************************************************
+**************         @Body        ****************
+****************************************************/
+body {
+	margin:0;
+	padding:0;
+	background:#ffffff;
+}
+p,td { 
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top: 0px;
+}
+.body_txt {
+	color: #000000;
+	text-align: justify;
+	vertical-align: top;
+	font-size: 12px;
+	padding-top: 7px;
+	padding-right: 17px;
+	padding-bottom: 10px;
+	padding-left: 17px;
+}
+/***************************************************
+**************        @Header       ****************
+****************************************************/
+
+#header {
+	margin-bottom:10px;
+}
+#slogan {
+	position:absolute;
+	margin-left:570px;
+	top:43px;
+	color: #1b5989;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 17px;
+	width: 200px;
+}
+.company_name {
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #48555a;
+}
+.logo {
+	margin-top: 9px;
+	margin-right: 10px;
+	margin-bottom: 9px;
+	margin-left: 24px;
+}
+.mbg {
+	background-color: #F1F8FE;
+	background-image: url(../images/mbg.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.hbg {
+	background-image: url(../images/hbg.gif);
+	background-repeat: repeat-x;
+}
+.bgy {
+	background-repeat: repeat-y;
+}
+.bgx {
+	background-repeat: repeat-x;
+}
+.norepeat {
+	background-repeat: no-repeat;
+}
+.c-sep-bg {
+	background-image: url(../images/c-sep-bg.gif);
+	background-repeat: repeat-x;background-position:17px;
+}
+.bot-bg {
+	background-image: url(../images/bot-bg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+/***************************************************
+**************        @Menu         ****************
+****************************************************/
+#navigator {
+	float:left;
+	margin-left:420px;
+	margin-bottom:10px;
+}
+/***************************************************
+**************        @Titulo       ****************
+****************************************************/
+.titulo{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size: 24px;
+		color: #13a;
+		text-align: center;
+		margin-top:50px;
+}
+/*********************************************************
+**************     @Contenido Central     ****************
+*********************************************************/
+#centercontent{
+	margin-bottom:50px;
+}
+
+#footer{
+	margin-top:40px;
+}
+
+a:link{
+		text-decoration: none;
+		color: #000000;
+}
+a:visited{
+		text-decoration: none;
+		color: #000000;
+}
+a:active{
+		text-decoration: none;
+		color: #000000;
+}
+
+a:hover{
+		text-decoration: none;
+		color: #0000ff;
+}
+img{
+		border: 0px;
+}
+input{
+		background-color: #ffffff;
+		border-color: #000000;
+		border-width:1px;
+		font-weight: bold;
+}
+select{
+		background-color: #ffffff;
+		border-color: #000000;
+		border-width: 2px;
+		font-size: 12px;
+}
+
+/***************************************************
+**************        @Tablas       ****************
+****************************************************/
+/* color de tabla  #BDD2FF  #AABDE6  #9AAEDB Text #13a*/
+.tabla{
+		font-size: 11px;
+		border-style: solid;
+		border-color: #666666;
+		border-width: 1px;
+		
+}
+
+.tdatos{
+		font-size: 11px;
+		font-weight: bold;
+		color:#000 ;
+		background-color: #BDD2FF;
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 1px;
+
+}
+
+.dtabla{
+		font-size: 11px;
+		font-weight: bold;
+		color: #000000;
+		background-color: #FFFFFF;
+		font-family:arial black;
+		font-size: 9pt;
+		border-style: solid;
+		border-color: #cccccc;
+		border-width: 1.5px;
+        margin: 4px 50px 3px 50px;
+}
+.datos{
+		border-style: solid;
+		border-color: #E30BEE;
+		border-width: 1px;
+				font-size: 11px;
+		font-weight: bold;
+}
+.cdato{
+		font-size: 11px;
+		font-weight: bold;
+		color:       #000;
+		background-color: #ffffff;
+}
+
+/***************************************************
+**************       @Botones       ****************
+****************************************************/
+.imprimir { 
+	width:60px;
+	height:40px;
+	background-image:url('../images/Adobe.png');
+}
+
+/***************************************************
+**************   @Mensajes de error ****************
+****************************************************/
+.cuadro_error{
+		background-color: #ffff00;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #ff0000;
+		text-align: center;
+}
+.mensaje_error{
+		color: #000000;
+		font-size: 12px;
+}
+.cuadro_mensaje{
+		background-color: #DDE4FF;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #000000;
+		text-align: center;
+}
+.mensaje{
+		color: #000000;
+		font-size: 12px;
+}
+/***************************************************
+**************        @Footer       ****************
+****************************************************/
+
+.bottom_addr {
+	font-size: 10px;
+	color: #FFFFFF;
+	padding-top: 3px;
+	padding-bottom: 8px;
+	text-align: center;
+}
